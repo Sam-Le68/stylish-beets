@@ -1,6 +1,8 @@
 html {
   font-family: "PT Sans", sans-serif;
   color: #222;
+  background-color: #c9b5ab;
+  line-height: 1.5;
 }
 
 h1, h2 {
@@ -42,12 +44,12 @@ dl dt:first-child, dl dd:first-child {
   font-style: italic;
 }
 
-dl dt:nth-child(2,3,4,5) {
-    font-style: italic;
+.bold {
+    font-weight: bold;
 }
 
-dl dd:nth-child(2,3,4,5) {
-    font-style: normal;
+.afterbold {
+    font-weight: normal;
 }
 
 h2 ul li {
@@ -56,4 +58,5 @@ h2 ul li {
 
 footer a {
   color: #8f2440;
+  text-decoration: none;
 }
