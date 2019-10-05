@@ -1,5 +1,6 @@
 html {
   font-family: "PT Sans", sans-serif;
+  color: #222;
 }
 
 h1, h2 {
@@ -39,4 +40,20 @@ h2 ol li {
 
 dl dt:first-child, dl dd:first-child {
   font-style: italic;
+}
+
+dl dt:nth-child(2,3,4,5) {
+    font-style: italic;
+}
+
+dl dd:nth-child(2,3,4,5) {
+    font-style: normal;
+}
+
+h2 ul li {
+  list-style-type: circle;
+}
+
+footer a {
+  color: #8f2440;
 }
