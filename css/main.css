@@ -16,6 +16,11 @@ footer, main {
   font-size: .8rem;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 nav {
   color: #8f2440;
   font-size: 1.125rem;
