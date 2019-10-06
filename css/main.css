@@ -12,8 +12,8 @@ h1, h2 {
 }
 
 footer, main {
-  font-family: 'PT Serif', serif;
-  font-size: 0.8rem;
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
 }
 
 nav {
@@ -45,18 +45,18 @@ dl dt:first-child, dl dd:first-child {
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .afterbold {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 h2 ul li {
   list-style-type: circle;
 }
 
-[rel="external"] {
+footer a {
   color: #8f2440;
   text-decoration: none;
 }
