@@ -18,14 +18,15 @@ footer, main {
 }
 
 img {
+  max-width: 100%;
   height: auto;
-  width: 150px ;
 }
 
 nav {
   color: #8f2440;
   font-size: 1.125rem;
   list-style-type: none;
+  font-weight: bold;
 }
 
 figcaption {
@@ -70,4 +71,5 @@ footer a {
 
 a:hover {
   color: #3f1622;
+  text-decoration: none;
 }
