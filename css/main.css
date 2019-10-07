@@ -18,7 +18,7 @@ footer, main {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -27,6 +27,7 @@ nav {
   font-size: 1.125rem;
   list-style-type: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
 figcaption {
@@ -68,6 +69,9 @@ footer a {
   color: #8f2440;
   text-decoration: none;
 }
+
+::selection {
+  color: #8f2440;
 
 a:hover {
   color: #3f1622;
