@@ -65,13 +65,10 @@ h2 ul li {
   list-style-type: circle;
 }
 
-footer a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
-
-::selection {
-  color: #8f2440;
 
 a:hover {
   color: #3f1622;
