@@ -18,7 +18,7 @@ footer, main {
 
 img {
   height: auto;
-  width: auto;
+  width: ;
 }
 
 nav {
@@ -64,4 +64,8 @@ h2 ul li {
 footer a {
   color: #8f2440;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
 }
